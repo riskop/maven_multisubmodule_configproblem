@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="plugin-common" />
+        <module name="main-war" />
+        <module name="plugin-a" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mainmodule" target="21" />
+      <module name="rny-plugin" target="21" />
+      <module name="rny-plugin-common" target="21" />
+      <module name="rny-plugin-notificationprovisionv1" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rny" options="-proc:none" />
+      <module name="rny-plugin-common" options="" />
+      <module name="rny-plugin-notificationprovisionv1" options="" />
+      <module name="rny-web-admin-war" options="-proc:none" />
+    </option>
+  </component>
+</project>

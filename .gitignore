@@ -1,0 +1,4 @@
+# Project exclude paths
+/plugin/plugin-a/target/
+/plugin/plugin-common/target/
+/web/main-war/target/

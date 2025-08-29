@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rny-web/rny-web-admin-war/mainmodule.iml" filepath="$PROJECT_DIR$/rny-web/rny-web-admin-war/mainmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rny-plugin/rny-plugin.iml" filepath="$PROJECT_DIR$/rny-plugin/rny-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rny-plugin/rny-plugin-common/rny-plugin-common.iml" filepath="$PROJECT_DIR$/rny-plugin/rny-plugin-common/rny-plugin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rny-plugin/rny-plugin-notificationprovisionv1/rny-plugin-notificationprovisionv1.iml" filepath="$PROJECT_DIR$/rny-plugin/rny-plugin-notificationprovisionv1/rny-plugin-notificationprovisionv1.iml" />
+    </modules>
+  </component>
+</project>
